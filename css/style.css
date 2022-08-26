@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: Outfit;
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+}
+html{
+    width: 1440px;
+}
+body{
+    font-family: Outfit, sans-serif;
+}
+body p{
+    font-size: 15px;
+}
