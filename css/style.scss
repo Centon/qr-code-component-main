@@ -1,0 +1,30 @@
+/*Layout*/
+$desktop: 1440px;
+$Mobile: 375px;
+
+/*Colors*/
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+
+/*Typography*/
+$paragaph: 15px;
+$fontRegular:400;
+$fontBold: 700;
+
+
+@font-face {
+    font-family: Outfit;
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+}
+
+html{
+    width: $desktop;
+}
+body{
+    font-family: Outfit, sans-serif;
+    p{
+        font-size: 15px;
+    }
+}
