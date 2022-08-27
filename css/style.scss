@@ -10,8 +10,8 @@ $darkBlue: hsl(218, 44%, 22%);
 
 /*Typography*/
 $paragaph: 15px;
-$fontRegular:400;
-$fontBold: 700;
+$regular:400;
+$bold: 700;
 
 
 @font-face {
@@ -21,10 +21,46 @@ $fontBold: 700;
 
 html{
     width: $desktop;
+   
 }
 body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     font-family: Outfit, sans-serif;
+    background-color: $lightGray;
     p{
         font-size: 15px;
     }
 }
+p{
+    color:$grayishBlue;
+    font-weight: $regular;
+    text-align: justify;
+}
+    
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        border-radius: 15px;
+        background-color:$white ;
+        width: 320px;
+        padding: 10px;
+
+        
+        h2{
+            color: $darkBlue;
+            font-weight: $bold;
+        }
+        img{
+            
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            
+            
+        }
+    }
