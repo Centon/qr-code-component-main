@@ -44,7 +44,8 @@ p{
     .card{
         display: flex;
         flex-direction: column;
-        align-content: space-around;
+        
+        align-items: center;
         border-radius: 15px;
         background-color:$white ;
         width: 320px;
@@ -54,6 +55,7 @@ p{
         h2{
             color: $darkBlue;
             font-weight: $bold;
+            text-align: justify;
         }
         img{
             
@@ -62,5 +64,9 @@ p{
             border-radius: 10px;
             
             
+        }
+
+        p{
+            text-align: center;
         }
     }
